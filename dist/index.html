@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCSS sitebuilding</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/590a3b5cf9.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="home">
+
+  <header>
+    <nav class="topnav nav" id="myTopnav">
+      <span>
+        <a href="#home" class="start">Start Bootstrap</a>
+      </span>
+      <a href="#contact">CONTACT</a>
+      <a href="#features">FEATURES</a>
+      <a href="#download">DOWNLOAD</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="main__top">
+      <div class="container">
+        <div class="col-md-4 main__top-content">
+          <span>
+            New Age is an app landing page with help
+            you beautifully showcase your new mobile
+            app, or anything else!
+          </span>
+          <button class="btn">START NOW FOR FREE!</button>
+        </div>
+        <div class="col-md-4">
+          <div class="main__top-images">
+            <img class="phone--img" src="./img/phone.png" alt="phone">
+            <img class="phone__inside--img" src="./img/demo-screen-1.jpg" alt="demo-screen-1">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="main__mid" id="discover">
+      <div class="main__mid-container">
+        <div class="row">
+          <h3 class="main__mid-title">Discover what all the buzz is about!</h3>
+        </div>
+
+        <div class="row">
+          <div class="main__mid-content">
+            Our app is available on any mobile device! Download now to get started!
+          </div>
+        </div>
+
+        <div class="row stores">
+          <a class="main__mid-link" href="https://play.google.com">
+            <img class="google-play" data-toggle="tooltip" data-placement="left" data-original-title="Google Play"
+              title="Google Play" src="./img/google-play-badge.svg" alt="google-play-badge">
+          </a>
+
+          <a class="main__mid-link" href="https://www.apple.com/app-store/">
+            <img src="./img/app-store-badge.svg" data-toggle="tooltip" data-placement="right"
+              data-original-title="App store" title="App store" alt="app-store-badge">
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="main__mid--two" id="features">
+      <div class="main__mid--container">
+        <div class="main__mid2-title col-12">
+          <h1 class="features__title">Unlimited Features, Unlimited Fun</h1>
+        </div>
+
+        <div class="main__mid2-content">
+          <div class=" col-8 col-lg-4">
+            <div class="main__mid2-images">
+              <img class="phone--img3" src="./img/phone3.png" alt="phone">
+            </div>
+          </div>
+          <div class="col-8 col-lg-6 main__mid2-cards">
+            <div class="card-deck">
+              <div class="card ">
+                <p class="unicode">&#128241;</p>
+                <div class="card-body">
+                  <h5 class="card-title">Device Mockups</h5>
+                  <p class="card-text">Ready to use HTML/CSS device mockups,
+                    no Photoshop required!
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <p class="unicode">&#127873;</p>
+                <div class="card-body">
+                  <h5 class="card-title">Free to Use</h5>
+                  <p class="card-text">As always this theme is free to download
+                    and use for any purpose!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-deck">
+              <div class="card">
+                <p class="unicode">&#128247;</p>
+                <div class="card-body">
+                  <h5 class="card-title">Flexible Use</h5>
+                  <p class="card-text">Put an image, video, animation or anything else
+                    in the screen!
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <p class="unicode">&#128275;</p>
+                <div class="card-body">
+                  <h5 class="card-title">Open Source</h5>
+                  <p class="card-text">Since this theme is MIT licensed,
+                    can you it commercially!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main__stop">
+      <div class="container">
+        <div class="main__stop-content">
+          Stop waiting.
+          <p>Start building.</p>
+          <button class="btn btn__stop">LET'S GET STARTED!</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="main__footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1 class="col-lg-12">We <span class="heart">&hearts;</span> new friends!</h1>
+        </div>
+        <div class="row justify-content-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="tooltip">
+            <a href="https://twitter.com">
+              <span class="fa-stack fa-tw-bg fa-2x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="tooltiptext">Twitter</span>
+            </a>
+          </div>
+          <div class="tooltip">
+            <a href="https://facebook.com">
+              <span class="fa-stack fa-fb-bg fa-2x" aria-hidden="true">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x"></i>
+              </span>
+              <span class="tooltiptext">Facebook</span>
+            </a>
+          </div>
+          <div class="tooltip">
+            <a href="https://plus.google.com">
+              <span class="fa-stack fa-gp-bg fa-2x" aria-hidden="true">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-google-plus-g fa-stack-1x"></i>
+              </span>
+              <span class="tooltiptext">Google +</span>
+            </a>
+          </div>
+        </div>
+    </section>
+  
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__title-div">
+      <h5 class="footer__title">Your website 2018. All Rights Reserved.</h5>
+    </div>
+    <div class="footer__links">
+      <a class="footer__link modal__open-privacy" href="#modal">Privacy</a>
+      <a class="footer__link modal__open-terms" href="#modal">Terms</a>
+      <a class="footer__link modal__open-faq" href="#modal">FAQ</a>
+    </div>
+  </footer>
+
+  <section class="modal" id="modal">
+    <div class="modal-content" tabindex="0">
+      <span class="modal__close">&times;</span>
+      <header>
+        <h2>Privacy</h2>
+      </header>
+      <div class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam pariatur consequuntur
+        perferendis, tempore animi molestias quam quaerat ut dolor minus vero nisi debitis? Illum, obcaecati ea dolorem
+        est distinctio quibusdam.</div>
+      <footer class="modal__footer">
+        <div class="btnGroup">
+          <button class="succedbtn green">
+            OK
+          </button>
+          <button class="closebtn red">
+            Close
+          </button>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <section class="modal">
+    <div class="modal-content" tabindex="0">
+      <span class="modal__close">&times;</span>
+      <header>
+        <h2>Terms</h2>
+      </header>
+      <div class="modal__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit nam delectus provident
+        eius, aperiam harum blanditiis ea excepturi sapiente quos, illo repellendus modi. Quasi expedita, veritatis amet
+        magnam molestias nihil?</div>
+      <footer class="modal__footer">
+        <div class="btnGroup">
+          <button class="succedbtn green">
+            OK
+          </button>
+          <button class="closebtn red">
+            Close
+          </button>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <section class="modal">
+    <div class="modal-content" tabindex="0">
+      <span class="modal__close">&times;</span>
+      <header>
+        <h2>Faq</h2>
+      </header>
+      <div class="modal__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta adipisci reprehenderit
+        commodi minima repellat ad ipsam, ipsa non natus? Tempore laudantium quae explicabo molestias fuga
+        necessitatibus delectus quos consectetur eos!</div>
+      <footer class="modal__footer">
+        <div class="btnGroup">
+          <button class="succedbtn green">
+            OK
+          </button>
+          <button class="closebtn red">
+            Close
+          </button>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
